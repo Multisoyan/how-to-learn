@@ -53,7 +53,7 @@ line-height: 25px;
 font-weight: normal;
 bottom: 30px;
 left: 64px;
-margin: 0;  
+margin: 0;
 z-index: 2;}
 
 .header__link {color:#2f80ed;
@@ -172,7 +172,7 @@ z-index: 1;}
 
 
  .table__cell {
-  width: 250px;;
+  width: 250px;
   padding-top: 60px;
 }
 .table__cell_theme_dark {
@@ -194,7 +194,7 @@ z-index: 1;}
   margin: 0px;
   line-height: 1.2;
   font-size: 18px;
-  font-weight: normal ;
+  font-weight: normal;
  }
  .feynman {
   background-color: #f2f2f2;
@@ -240,8 +240,7 @@ z-index: 1;}
   position: absolute;
   bottom: 0px;
   left: 0px;
-  z-index:1
- ;
+  z-index:1;
  }
  .kaufman {
   background-color: #1f1f1f;
