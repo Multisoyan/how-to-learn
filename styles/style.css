@@ -252,9 +252,9 @@
   top: 0;
   right: -210px;
   z-index:1;
- }
+ } 
 
- .section__title_theme_dark {
+.section__title_theme_dark {
   position: relative;
   z-index: 2;
   color: white;
