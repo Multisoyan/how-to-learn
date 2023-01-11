@@ -91,11 +91,11 @@
 .description {
   display: flex;
   justify-content: center;
+  padding: 100px 0;
  }
 
 .two-columns {
   width: 80%;
-  margin: 100px 0;
   display: flex;
   justify-content: space-between;
  }
@@ -121,7 +121,7 @@
  }
 
 .two-columns__paragraph {
-  margin: 0px;
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -299,7 +299,6 @@
 }
 
 .footer__column_content_copyright {
-  color: white;
   justify-content: space-between;
   flex-basis: 711px;
 }
