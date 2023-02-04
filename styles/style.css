@@ -22,10 +22,10 @@
 
 .logo {
   height: 32px;
-  width: 228px; 
+  width: 228px;
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -37,7 +37,7 @@
   justify-content: flex-start;
 }
 
-.header__title { 
+.header__title {
   display:flex;
   align-items: center;
   line-height: 96px;
@@ -87,7 +87,7 @@
 /* и элемента с модификатором вида ключ-значение */
 
 .table_theme_dark {}
- 
+
 .description {
   display: flex;
   justify-content: center;
@@ -106,7 +106,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color: #2f80ed; 
+  color: #2f80ed;
  }
 
 .two-columns__main-text {
@@ -135,7 +135,7 @@
     padding-bottom: 100px;
   }
 
-.section__title {
+.section-title {
   width: 60%;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -145,7 +145,7 @@
   text-align: center;
 }
 
-.section__subtitle {
+.section-subtitle {
   width: 60%;
   margin: 0 auto 0;
   line-height: 34px;
@@ -179,13 +179,15 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
- } 
+ }
 
 .table__text {
   margin: 0;
+  margin-bottom: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+
  }
 
 .feynman {
@@ -193,7 +195,7 @@
   padding-top: 100px;
   position: relative;
   height: 890px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
  }
 
 .feynman__title {
@@ -252,15 +254,15 @@
   top: 0;
   right: -210px;
   z-index:1;
- } 
+ }
 
-.section__title_theme_dark {
+.section-title_theme_dark {
   position: relative;
   z-index: 2;
   color: white;
 }
 
-.section__subtitle_theme_dark {
+.section-subtitle_theme_dark {
   position: relative;
   z-index: 2;
   color: white;
@@ -291,11 +293,11 @@
   width: 90%;
   justify-content: space-between;
 }
- 
+
 .footer__column {
   display: flex;
   flex-direction: column;
-  color: white; 
+  color: white;
 }
 
 .footer__column_content_copyright {
@@ -303,7 +305,7 @@
   flex-basis: 711px;
 }
 
-.author {
+.footer__author {
   margin: 18px 0;
   height: 25px;
   font-size: 18px;
@@ -317,7 +319,7 @@
   margin: 0 0 20px;
 }
 
-.footer__column_social {
+.footer__column_content_social {
 }
 
 .footer__column_content_info {
@@ -326,7 +328,7 @@
 .footer__columns-links{
   list-style: none;
   margin: 0 0 16px;
-  padding: 0; 
+  padding: 0;
 }
 
 .footer__column-link{
