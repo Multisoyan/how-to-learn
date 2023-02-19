@@ -4,10 +4,9 @@
     font-weight: normal;
     flex-grow: 1;
     text-align: left;
-    display: inline-block;
     min-width: 784px;
 }
 
-.two-columns__main-text p:last-of-type {
+.two-columns__main-text:last-of-type {
     margin-bottom: 0;
 }
